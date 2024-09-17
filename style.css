@@ -16,7 +16,7 @@ body {
 }
 
 .head {
-    background-image: url(/images/header-bg.png);
+    background-image: url(images/header-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 2px solid #00d0ff;
@@ -180,7 +180,7 @@ img {
 
 .d-highlight-right .c-box-title-name{
     padding: 5px 15px;
-    background-image: url('/images/box-decor-left-secondary.svg'), url('/images/box-decor-right-secondary.svg');
+    background-image: url('images/box-decor-left-secondary.svg'), url('images/box-decor-right-secondary.svg');
     background-position: top left, bottom right; 
     background-repeat: no-repeat;
     color: #fc1e1e;
