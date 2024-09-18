@@ -2,6 +2,7 @@
     --mau-cam:#f9ece8 ;
     --mau-xanh: #bce8f2;
     --mau-xanh-dam: #00d0ff;
+    --mau-xanh-dam-hon: #12a8ca;
     
 }
 * {
@@ -362,9 +363,13 @@ footer .c-text h3{
 }
 
 .c-multimedia{
-    background-color: #286db1;
     color: #f1f1f1;
     padding: 50px 0;
+    background-image: url(images/Rectangle394.png);
+    background-color: #4174a7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .c-multimedia .c-title a
@@ -401,4 +406,48 @@ footer .c-text h3{
 }
 .c-multimedia .thumbnail{
     position: relative;
+}
+
+.c-chidao{
+    background-image: url(images/Rectangle394.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-size: cover;
+}
+.c-chidao .c-content-box{
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.c-chidao .c-item{
+    width: 175px;
+    height: 175px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px 0;
+    background-color: #d5f7fa;
+    background: radial-gradient(circle, #ffffff, #f3fafb, #d5f7fa); 
+}
+.c-chidao .c-item .c-icon{
+    width: 82px;
+    height: 82px;
+    font-size: 36px;
+    line-height: 82px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid var(--mau-xanh-dam);
+    color: var(--mau-xanh-dam-hon);
+}
+.c-chidao .c-item .name{
+    color: var(--mau-xanh-dam-hon);
+    font-weight: bold;
+    margin: 10px;
 }
