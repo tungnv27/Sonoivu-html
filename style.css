@@ -304,7 +304,7 @@ img {
 
 .c-banner-300{
     width: 300px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .c-content2{
@@ -364,6 +364,7 @@ footer .c-text h3{
 .c-multimedia{
     background-color: #286db1;
     color: #f1f1f1;
+    padding: 50px 0;
 }
 
 .c-multimedia .c-title a
