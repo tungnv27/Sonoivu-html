@@ -360,3 +360,44 @@ footer .c-text p{
 footer .c-text h3{
     padding: 10px 0;
 }
+
+.c-multimedia{
+    background-color: #286db1;
+    color: #f1f1f1;
+}
+
+.c-multimedia .c-title a
+{
+ color: #ffffff;
+}
+.c-multimedia .c-sapo{
+    color: #cdc0c0;
+}
+
+.c-multimedia .c-btn-media 
+{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.c-multimedia .c-btn-media a
+{
+ color: #ffffff;
+ padding: 0 10px;
+}
+
+.c-multimedia .thumbnail .c-icon{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 25px;
+    background-color: var(--mau-xanh-dam);
+    position: absolute; 
+    bottom: 10px;
+    left: 7px;
+    
+}
+.c-multimedia .thumbnail{
+    position: relative;
+}
