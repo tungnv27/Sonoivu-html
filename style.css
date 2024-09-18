@@ -313,7 +313,7 @@ img {
     justify-content: space-between;
 }
 
-.c-content2 .c-box-chanel{
+.c-content2 .d-content-left .c-box-chanel{
     
     width: 870px;
 }
@@ -450,4 +450,34 @@ footer .c-text h3{
     color: var(--mau-xanh-dam-hon);
     font-weight: bold;
     margin: 10px;
+}
+.c-content2 .d-content-right{
+    width: 300px;
+   
+}
+.c-top-read ul{
+    list-style-type: decimal;
+    padding: 10px 20px 10px 60px;
+}
+.c-top-read{
+    border: 1px solid var(--mau-xanh-dam);
+    border-top: none;
+    margin-bottom: 10px;
+   
+    
+}
+
+.c-top-read li{
+    text-decoration: none;
+    font-weight: bolder; 
+}
+
+.c-top-read li::marker {
+    color: rgb(255, 255, 255); 
+    font-size: 40px; 
+    text-shadow: 
+        1px 1px 0 var(--mau-xanh-dam),  
+        -1px -1px 0 var(--mau-xanh-dam),  
+        1px -1px 0 var(--mau-xanh-dam),  
+        -1px 1px 0 var(--mau-xanh-dam); 
 }
